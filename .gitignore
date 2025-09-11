@@ -1,2 +1,5 @@
+__pycache__/
+backup/
+.DS_Store
 strava_config.json
 weather_config.json
