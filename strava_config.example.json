@@ -1,0 +1,8 @@
+{
+  "client_id": "CLIENT ID",
+  "client_secret": "CLIENT SECRET KEY",
+  "redirect_uri": "http://localhost:5000/callback",
+  "access_token": "ACCESS TOKEN",
+  "refresh_token": "REFRESH TOKEN",
+  "expires_at": 0
+}

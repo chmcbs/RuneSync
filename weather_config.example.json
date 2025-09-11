@@ -1,0 +1,9 @@
+{
+  "api_key": "OPENWEATHERMAP API KEY",
+  "endpoints": {
+    "current_weather": "https://api.openweathermap.org/data/2.5/weather",
+    "forecast": "https://api.openweathermap.org/data/2.5/forecast"
+  },
+  "default_units": "metric",
+  "default_city": "CITY NAME"
+}
