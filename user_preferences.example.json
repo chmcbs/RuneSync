@@ -1,7 +1,7 @@
 {
   "weather": {
-    "default_units": "metric",
-    "default_city": "CITY NAME"
+    "chosen_city": "CITY NAME",
+    "default_units": "metric" // "metric" or "imperial"
   },
   "fitness_targets": {
     "running_km_per_week": 10,
