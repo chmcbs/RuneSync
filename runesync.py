@@ -932,7 +932,7 @@ def render_dashboard():
         "price_chart": (200, 177),
 
         "news_title": (438, 185),
-        "news_abstract": (438, 210),
+        "news_abstract": (438, 205),
         "news_image": (620, 210),
 
         "stats_agility_title": (115, 342),
