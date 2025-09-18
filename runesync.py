@@ -257,17 +257,17 @@ def get_item_id(item_name, items_dict=None):
         return None
 
 def format_price(price):
-    """Format price with K/M suffixes using 4 significant figures"""
-    if price >= 10000000:  # 10M+: use M suffix
+    """Format price with K/M suffixes using RuneScape's exact formatting"""
+    if price >= 1000000:  # 1M+: use M suffix with 1 decimal place
         millions = price / 1000000
-        formatted = f'{millions:.4g}M'  # .4g gives exactly 4 sig figs
+        formatted = f'{millions:.1f}M'  # 1 decimal place for millions
         return formatted
-    elif price >= 10000:  # 10K-9.999M: use K suffix
+    elif price >= 1000:  # 1K-999K: use K suffix with no decimal places
         thousands = price / 1000
-        formatted = f'{thousands:.4g}K'  # .4g gives exactly 4 sig figs
+        formatted = f'{thousands:.0f}K'  # No decimal places for thousands
         return formatted
-    else:  # Below 10K: show full number
-        return f'{price:.4g}'  # 4 sig figs, no suffix
+    else:  # Below 1K: show full number
+        return f'{price:.0f}'  # No decimal places for small numbers
 
 def get_current_price(item_name_or_id, formatted=True, items_dict=None):
     """Get current market price for an item
