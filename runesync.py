@@ -451,7 +451,7 @@ def create_7d_chart(item_name_or_id, width=143, height=110, items_dict=None):
         runescape_font = None
         try:
             # Try assets folder relative to current location
-            font_path = 'resources/RuneScape-UF.ttf'
+            font_path = 'resources/RuneScape-Bold-12.ttf'
             if os.path.exists(font_path):
                 # Add font to matplotlib's font manager
                 fm.fontManager.addfont(font_path)
@@ -1057,7 +1057,7 @@ def render_dashboard():
 # ============================================================================
 
 if __name__ == "__main__":
-    print("🖥️ Rendering RuneSync dashboard...")
+    print("Rendering RuneSync dashboard...")
     dashboard = render_dashboard()
     dashboard.show()
     print("✅ Dashboard rendered successfully!")
