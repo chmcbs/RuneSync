@@ -1,0 +1,11 @@
+{
+  "weather": {
+    "default_units": "metric",
+    "default_city": "CITY NAME"
+  },
+  "fitness_targets": {
+    "running_km_per_week": 10,
+    "weight_training_hours_per_week": 2
+  },
+  "tracked_item": "ITEM NAME"
+}
