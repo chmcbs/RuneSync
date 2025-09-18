@@ -1,7 +1,7 @@
 # ⚔️ RuneSync
 A personal dashboard combining fitness tracking, live weather, in-game news, and item price tracking in a nostalgic RuneScape-themed interface.
 
-IMAGE
+![RuneSync Demo](/resources/demo.png)
 
 # Features:
 
