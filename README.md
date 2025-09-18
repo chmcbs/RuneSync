@@ -43,9 +43,10 @@ WIP
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 # Acknowledgments:
-- **[Jagex Limited](https://www.jagex.com/)** for creating Old School RuneScape
-- **[Lost City](https://github.com/LostCityRS)** for the Old School RuneScape assets
+- **[Lost City](https://github.com/LostCityRS)** for the RuneScape assets
+- **[RuneStar](https://github.com/RuneStar)** for the RuneScape fonts
 - **[Old School RuneScape Wiki](https://oldschool.runescape.wiki/)** for item data and images
 - **[OpenWeatherMap](https://openweathermap.org/)** for weather data
-- **[Strava](https://developers.strava.com/)** for the fitness tracking API
+- **[Strava](https://developers.strava.com/)** for fitness tracking
 - **[Proddy](https://github.com/hampo)** for technical support
+- **[Jagex Limited](https://www.jagex.com/)** for creating RuneScape
