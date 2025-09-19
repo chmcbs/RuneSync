@@ -1,5 +1,5 @@
 {
-  "client_id": "CLIENT ID",
-  "client_secret": "CLIENT SECRET KEY",
+  "client_id": "CLIENT_ID",
+  "client_secret": "CLIENT_SECRET",
   "redirect_uri": "http://localhost:5000/callback"
 }
