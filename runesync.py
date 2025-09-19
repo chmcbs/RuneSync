@@ -1003,8 +1003,8 @@ def render_dashboard():
     # Render the weather pane text at the specified positions
     draw_text_with_shadow(positions["weather_title"], f"Weather in {proper_title(user_preferences['weather']['chosen_city'])}:", text, "yellow")
     # Display temperature with appropriate unit (C for metric, F for imperial)
-    temp_unit = "C" if default_units == "metric" else "F"
-    draw_text_with_shadow(positions["weather_temperature"], f"{get_daily_high_temperature()} {temp_unit}", weather_font, "white")
+    temp_unit = "°C" if default_units == "metric" else "°F"
+    draw_text_with_shadow(positions["weather_temperature"], f"{get_daily_high_temperature()}{temp_unit}", weather_font, "white")
     draw_text_with_shadow(positions["weather_wind"], f"{get_wind_level()}", weather_font, "white")
     draw_text_with_shadow(positions["weather_rain"], f"{get_rain_chance()}", weather_font, "white")
     draw_text_with_shadow(positions["weather_condition"], f"{get_simple_condition()}", weather_font, "white")
